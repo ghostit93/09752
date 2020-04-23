@@ -25,5 +25,7 @@
         <ul/>
         <br/>
         <a href="OrderDetailsHandler">|To order|<a/>
+        <br/>
+        <a href="logout">Logout</a>
     </body>
 </html>

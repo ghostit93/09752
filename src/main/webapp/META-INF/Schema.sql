@@ -1,4 +1,5 @@
-Drop table if exists order_product,orderContent,product,client;
+Drop table if exists order_product,orderContent,product,client,document;
+create table document (id serial primary key,name varchar(100),text text);
 create table client (id serial primary key,login varchar(50),password varchar(50));
 create table product (id serial primary key,title varchar(50),price integer);
 create table orderContent (id serial primary key,price integer,client_id integer references client(id));
